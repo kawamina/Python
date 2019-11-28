@@ -1,0 +1,12 @@
+#Zad1 
+from random import*
+a1=randint(1,100)
+a2=randint(1,100)
+a3=randint(1,100)
+print(a1)
+print(a2)
+print(a3)
+if (a1+a2)>a3 and (a1+a3)>a2 and (a2+a3)>a1:
+    print("Mozna zbudowac trojkat")
+else:
+    print("Nie mozna zbudowac trojkata")
