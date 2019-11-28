@@ -1,0 +1,5 @@
+#zad8
+from random import*
+a=int(input("Podaj dowolna liczbe calkowita: "))
+b=randint(0,a)
+print(b)
