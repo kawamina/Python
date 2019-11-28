@@ -1,0 +1,5 @@
+#zad12
+from math import*
+R=float(input("Podaj promien sfery w metrach:"))
+obj=(4/3)*pi*R**3
+print(round(obj))
