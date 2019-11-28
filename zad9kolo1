@@ -1,0 +1,6 @@
+#zad9
+a=float(input("Podaj dowolna liczbe rzeczywista:"))
+if a%2==0:
+    print("Podzielne przez 2")
+else:
+    print("Niepodzielne")
