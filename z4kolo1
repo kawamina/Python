@@ -1,0 +1,12 @@
+#Zad4
+from random import*
+x=0
+i=0
+while(x<1000):
+    a=randint(1,6)
+    b=randint(1,6)
+    c=randint(1,6)
+    while(a==b and b==c):
+        i=i+1
+print(i)
+//????
