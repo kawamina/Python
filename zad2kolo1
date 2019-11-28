@@ -1,0 +1,9 @@
+#Zad 2
+from math import*
+r=float(input("Podaj promien kola w metrach: "))
+#print(pi)
+print(r)
+print(round(r))
+pole=pi*(r*r)
+print(pole)
+print(round(pole))
