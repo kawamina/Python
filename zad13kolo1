@@ -1,0 +1,4 @@
+#zad13
+c=float(input("Podaj temperature w stopniach Celsjusza:"))
+f=c/5+32/9
+print(f)
