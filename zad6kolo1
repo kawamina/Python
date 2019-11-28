@@ -1,0 +1,10 @@
+#Zad6
+from math import*
+kat=float(input("Podaj wartosc kata w zakresie 0-9:"))
+kat2=radians(kat)
+print("Sinus kata wynosi: ",sin(kat2))
+print("Cosinus kata wynosi: ",cos(kat2))
+if kat==90:
+    print("Tangens nie istnieje")
+else:
+    print("Tangens kata wynosi: ",tan(kat2))
