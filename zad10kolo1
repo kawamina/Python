@@ -1,0 +1,8 @@
+#zad10
+zasolenie=float(input("Podaj zasolenie wody morskiej:"))
+temp=float(input("Podaj temperature wody morskiej:"))
+gestosc= 28.152 - 0.0735*temp +0.00469*temp*temp+(0.802 - 0.002*temp)*(zasolenie - 35)
+if temp>30 or zasolenie>40:
+    print("Nie można policzyć umownej gęstości wody morskiej")
+else:
+    print(gestosc)
