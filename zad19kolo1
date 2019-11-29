@@ -1,0 +1,10 @@
+#zad19. Napisz program proszący o nazwę użytkownika i hasło. O hasło powinien pytać dwukrotnie. Jeśli
+#dwa razy wpisano różne hasło powinien o tym poinformować. Jeśli hasło zostało wprowadzone
+#prawidłowo, także powinien wyświetlić odpowiedni komunikat. 
+a=input("Nazwa uzytkownika: ")
+b=input("Haslo: ")
+c=input("Podaj ponownie haslo: ")
+if b!=c:
+    print("Podano nieprawidlowe haslo")
+else:
+    print("Logowanie poprawne")
