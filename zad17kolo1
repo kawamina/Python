@@ -1,0 +1,5 @@
+#zad17
+from random import*
+for i in range(50):
+    a=randint(-100,100)
+    print(a)
