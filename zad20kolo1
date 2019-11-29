@@ -1,0 +1,6 @@
+#Napisz program, który liczy liczy wartość funkcji silnia dla liczb od 1 do 10. Wynik wypisuje na
+#ekranie.
+from math import*
+i=1
+for i in range(11):
+    print(i+1,"!=",factorial(i+1))
