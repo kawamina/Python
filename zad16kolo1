@@ -1,0 +1,4 @@
+#zad16
+for i in range(15):
+    print(i+1,"x",i+1)
+
