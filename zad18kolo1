@@ -1,0 +1,7 @@
+#Napisz program, który symuluje rzut dwudziestoma kostkami do gry i wypisuje uzyskany wynik na
+#ekranie. 
+#zad18
+from random import*
+for i in range(20):
+    a=randint(1,6)
+    print(a)
