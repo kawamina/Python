@@ -1,0 +1,10 @@
+from random import*
+a=randint(0,100)
+b=int(input("Podaj calkowita z zakresu 0-100:"))
+print("wylosowana liczba to:",a)
+if a==b:
+    print("Podana liczba jest liczba wylosowana")
+elif a<b:
+    print("Podales wieksza liczbe niz wylosowana")
+elif a>b:
+    print("Podales mniejsza liczbe niz wylosowana")
