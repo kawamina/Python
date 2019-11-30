@@ -1,0 +1,14 @@
+#Napisz program, który prosi użytkownika o wprowadzenie temperatury powietrzav(T [C]) i
+#prędkości wiatru (V [km/h]), a następnie oblicza temperaturę odczuwalną za pomocą wzoru: Twc
+#= 13.12 +0.6215*T - 11.37*V^0.16 + 0.3965*T*V^0.16. Jeżeli wprowadzona wartość prędkości
+#wiatru będzie mniejsza od zero, na ekranie powinna pojawić się informacja, że nie można
+#obliczyć temperatury odczuwalnej. 
+#zad22
+from math import*
+T=float(input("Podaj temperature powietrza w stopniach Celsjusza: "))
+V=float(input("Podaj predkosc wiatru: "))
+Z=13.12+0.6215*T-11.37*V**0.16+0.3965*T*V**0.16
+if V<0:
+    print("nie można obliczyć temperatury odczuwalnej")
+else:
+    print("Temperatura odczuwalna wynosi",Z)
