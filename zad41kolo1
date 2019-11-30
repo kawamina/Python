@@ -1,0 +1,5 @@
+a=int(input("Podaj wysokosc stozka"))
+i=0
+while i-1<a:
+    print("XX"*i)
+    i=i+1
