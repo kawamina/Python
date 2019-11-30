@@ -1,0 +1,5 @@
+a=int(input("Podaj liczbe calkowita od 10 d0 100"))
+for i in range(100):
+    i=i+1
+    mn=a*i
+    print(a,"x",i,"=",mn)
