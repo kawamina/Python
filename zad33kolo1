@@ -1,0 +1,6 @@
+import calendar  
+    
+r = 2017
+m = 11
+    
+print(calendar.month(r, m))  
