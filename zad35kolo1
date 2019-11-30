@@ -1,0 +1,7 @@
+#Napisz program, który liczy iloczyn czterech losowo wybranych liczb z zakresu [1000, 1500]. 
+from random import*
+a1=randint(1000,1500)
+a2=randint(1000,1500)
+a3=randint(1000,1500)
+iloczyn=a1*a2*a3
+print(iloczyn)
