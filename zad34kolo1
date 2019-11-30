@@ -1,0 +1,10 @@
+#Napisz program, który liczy różnicę między liczbą 17 i liczbą wprowadzoną przez użytkownika.
+#Jeśli liczba wprowadzana przez użytkownika jest większa od 17, wówczas program drukuje na
+#ekranie kwadrat różnicy. 
+
+a=float(input("Podaj liczbe:"))
+roznica=17-a
+if roznica<0:
+    print(roznica)
+else:
+    print(a**2)
