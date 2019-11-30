@@ -1,0 +1,13 @@
+# Napisz program, w którym w zależności od wartości zmiennej n(liczba całkowita większa od 0)
+# wypisze w rzędach odpowiednią liczbę gwiazdek. Na przykład dla n = 5 wynik powinien być
+# następujący:
+# *
+# **
+# ***
+# ****
+# *****
+
+#zad23
+n=int(input("Podaj liczbe:"))
+for i in range(n+1):
+    print(" "*(n-1),"*"*i)
