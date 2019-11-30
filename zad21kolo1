@@ -1,0 +1,7 @@
+#Napisz program, który wypisuje na ekranie kolejno co drugą liczbę z przedziału [0,10]. Użyj pętli
+#while.
+#zad21
+i=0
+while i<10:
+    i=i+1
+    print(i)
