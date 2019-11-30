@@ -1,0 +1,8 @@
+#Napisz program, który liczy długość wektora (długość wektora to pierwiastek z sumy kwadratów
+#jego współrzędnych). Współrzędne wektora podaje użytkownik (wprowadza z klawiatury) 
+
+a=int(input("Podaj wspolrzedna x:"))
+b=int(input("Podaj wspolrzedna y:"))
+suma=a+b
+pierwiastek=suma**(1/2)
+print(pierwiastek)
