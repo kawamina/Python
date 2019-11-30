@@ -1,0 +1,6 @@
+#Napisz program, który symuluje pięć losowań LOTTO (losowanie 6 numerów z zakresu 1-49).
+#Wynik losowania drukuje na ekranie. 
+from random import*
+for i in range(5):
+    a=randint(1,49)
+    print(a)
