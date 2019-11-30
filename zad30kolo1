@@ -1,0 +1,11 @@
+#Napisz program, który pyta użytkownika o wpisanie dowolnego zdania, a następnie sprawdza ile
+#razy w tym zdaniu występuje litera a.
+
+zdanie=input("Wpisz dowolne zdanie:")
+suma=0
+for litera in zdanie:
+    if litera=="a":
+        suma=suma+1
+    else:
+        suma=suma+0
+print(suma)
