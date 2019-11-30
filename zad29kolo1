@@ -1,0 +1,6 @@
+from math import*
+r=float(input("Podaj dlugosc boku szescianu:"))
+szescian=r**3
+v=(4/3)*pi*r**2
+procent=r/v*100
+print(procent,"% objętości sześcianu o boku r wypełnia sfera o promieniu r")
