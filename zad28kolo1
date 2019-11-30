@@ -1,0 +1,12 @@
+#Napisz program, który wypisuje na ekranie liczby od 0 do 90, przy czym przed każdą liczbą
+#podzielną przez 6 będzie gwiazdka. Uwaga: resztę z dzielenia sprawdzamy przy użyciu operatora
+#%, np. jeśli x%3==0, to x dzieli się bez reszty przez 3.
+
+
+
+for i in range(11):
+    if i%6==0:
+        print("*",i)
+    else:
+        print(i)
+ 
