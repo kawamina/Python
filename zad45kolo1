@@ -1,0 +1,8 @@
+#Napisz program obliczający sumę liczb nieparzystych w ciągu od 1 do n, gdzie n podaje
+#użytkownik. 
+n=int(input("Podaj liczbe calkowita wieksza od 0:"))
+suma=0
+for i in range(n+1):
+    if i%2!=0:
+        suma=suma+1
+print(suma)
