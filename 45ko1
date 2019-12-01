@@ -1,0 +1,8 @@
+#Napisz program, który losuje i drukuje na ekranie n liczb zmiennoprzecinkowych z zakresu [a,b].
+#n, a i b to liczby podawane przez użytkownika.
+from random import*
+alfa=float(input("Podaj dolna granice:"))
+beta=float(input("Podaj gorna granice:"))
+gamma=int(input("Podaj liczbe:"))
+for i in range(gamma):
+    print(alfa,beta)
