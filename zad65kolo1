@@ -1,0 +1,8 @@
+#Napisz program, który prosi użytkownika o podanie liczby całkowitej. Dopóki liczba jest mniejsza
+#od 100, niech będzie wyświetlana jej dwukrotność. 
+a=int(input("Podaj liczbe calkowita:"))
+if a<100:
+    while a<100:
+        a=2*a
+        print(a)
+  
