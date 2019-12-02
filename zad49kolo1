@@ -1,0 +1,14 @@
+#Napisz program do którego będzie można wprowadzić 3 tytuły filmów a następnie program
+#wylosuje jeden z nich i wyświetli Dziś obejrzyj: [tytuł filmu]. 
+from random import*
+a1=input("Podaj tytul 1 filmu:")
+a2=input("Podaj tytul 2 filmu:")
+a3=input("Podaj tytul 3 filmu:")
+b=randint(1,3)
+print(b)
+if b==1:
+    print("Dzis obejrzyj:",a1)
+if b==2:
+    print("Dzis obejrzyj:",a2)
+if b==3:
+    print("Dzis obejrzyj:",a3)
