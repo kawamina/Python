@@ -1,0 +1,10 @@
+#Napisz program który będzie symulował rzuty monetą z 1% szansą na to że moneta upadnie na
+#sztorc 
+x=0
+from random import*
+zbior=["sztorc","orzel","reszka"]
+prawdop=[0.01,0.99/2,0.99/2]
+for i in range(100):
+    if choices (zbior,prawdop)==["sztorc"]:
+        x=x+1
+print(x)
