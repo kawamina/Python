@@ -1,0 +1,20 @@
+#Napisz prosty kalkulator, który będzie potrafił dodawać, odejmować, mnożyć i dzielić. Zabezpiecz
+#kalkulator przed podawaniem niepoprawnych liczb i operacji. 
+x1=float(input("Podaj pierwszy argument:"))
+x2=float(input("Podaj drugi argument:"))
+a=int(input("Wybierz operacje: 1.dodawanie, 2.odejmowanie, 3.iloczyn, 4.iloraz:"))
+if a==1:
+    suma=x1+x2
+    print(suma)
+if a==2:
+    odejmowanie=x1-x2
+    print(odejmowanie)
+if a==3:
+    iloczyn=x1*x2
+    print(iloczyn)
+if a==4:
+    if x2!=0:
+        iloraz=x1/x2
+        print(iloraz)
+    else:
+        print("Nie mozna dzielic przez zero")
