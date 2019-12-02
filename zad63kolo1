@@ -1,0 +1,10 @@
+#Napisz kod, który prosi o podanie kilku nazw zwierząt, a następnie wyświetla: [Zwierzę 1],
+#następne zwierzę to [Zwierzę 2], następne zwierzę to … itd. (Pętla for). 
+zwierze = [a,b,c,d]
+a=input("Podaj 1 zwierze:")
+b=input("Podaj 2 zwierze:")
+c=input("Podaj 3 zwierze:")
+d=input("Podaj 4 zwierze:")
+for i in zwierze:
+    print(i)
+
