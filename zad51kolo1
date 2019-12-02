@@ -1,0 +1,15 @@
+#Napisz program do którego po wprowadzenie godziny, minut, sekund z czasu Londyńskiego
+#wyświetli ten czas dla Nowego Jorku, Warszawy, Tokio 
+print("Czas Londynski")
+godz=int(input("Podaj godz: "))
+minuty=int(input("Podaj min: "))
+sek=int(input("Podaj sekundy: "))
+print("Czas w NY:")
+godz=godz+3
+print(godz,"godz",minuty,"min",sek,"sek")
+print("Czas w Waw:")
+godz=godz+6
+print(godz,"godz",minuty,"min",sek,"sek")
+print("Czas w Tokio:")
+godz=godz+7
+print(godz,"godz",minuty,"min",sek,"sek")
