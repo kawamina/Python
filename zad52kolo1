@@ -1,0 +1,8 @@
+#Napisz program po wprowadzenie do którego dwóch boków prostokąta obliczy jego przekątną 
+from math import*
+a=float(input("Podaj dlugosc pierwszego boku:"))
+b=float(input("Podaj dlugosc drugiego boku:"))
+c=a**2
+d=b**2
+przekatna=(c+d)**(1/2)
+print(przekatna)
