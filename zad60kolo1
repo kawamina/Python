@@ -1,0 +1,6 @@
+imie=input("Podaj imie ")
+nazwisko=input("Podaj nazwisko ")
+wiek=int(input("Podaj wiek"))
+rok2031=2031-2019
+wiek=rok2031+wiek
+print(imie,nazwisko,"bedzie mial/a",wiek,"lat w roku 2031")
