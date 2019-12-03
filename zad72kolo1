@@ -1,0 +1,12 @@
+suma=0
+#liczb trzycyfrowych abc
+for a in range(1,10):
+    for b in range(0,10):
+        for c in range(0,10):
+            if a!=b and b!=c and c!=a:
+                #print(a,b,c)
+                suma=suma+1
+print(suma)
+
+#Napisz program, który wyœwietli wszystkie liczby trzycyfrowe o niepowtarzających się cyfrach
+#oraz określi ile jest takich liczb.
