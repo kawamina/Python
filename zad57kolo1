@@ -1,0 +1,6 @@
+n=int(input("Podaj liczbe mniejsza od 15"))
+if n<15 and n>=0:
+    roznica=15-n
+    print("Dodaj jeszcze lyzek",roznica)
+else:
+    print("Blad")
