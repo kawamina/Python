@@ -1,0 +1,5 @@
+a=input("Podaj nazwe rzeki w Polsce (male litery)")
+if a=="wisla" or a=="odra" or a=="":
+    print("Jedna z najwiekszych rzek w PL")
+else:
+    print("ok")
