@@ -1,0 +1,6 @@
+from math import*
+n=float(input("Podaj liczbe"))
+if n>=0:
+    print(sqrt(n))
+else:
+    print("Nie da sie spierwiastkowac liczby ujemnej")
